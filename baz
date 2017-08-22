@@ -1,0 +1,6 @@
+Some Git operations, such as git rebase, require a clean working tree—a working tree with no changes. 
+git stash gives you a tool to hide changes that aren’t quite ready to commit so you can come back to them.
+Stashing changes is the equivalent of creating a commit and then resetting your repository back one xxxx.. 
+Stash provides a mechanism for grabbing those changes out of dcdwcw  more easily, however.
+Stash names are similar to the names you see in them reflog (see Task 40, Retrieving “Lost” Commits, on page 120). 
+You refer to them as stash@{#}, replacing the # with the age of the stash. The most recent is 0, the one before that is 1, and so on.
